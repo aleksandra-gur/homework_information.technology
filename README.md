@@ -1,49 +1,50 @@
-# Student Tools — ДЗ
+# Начало общего проекта
 
-Учебный проект на Python 3.10+. Программа вычисляет среднее значение списка оценок и выводит результат с двумя знаками после запятой.
+Python 3.10+. Переименуйте распакованную папку в student-tools. Откройте её в VS Code.
+Создайте .venv по главе 2.1. После активации выполните `python main.py`.
+Ожидается: Средний результат: 4.40. Далее продолжайте этот же проект по книге.
 
-## Запуск на Windows (PowerShell)
+# Student Tools — разбор темы 02
+
+Python 3.10+. Программа считает среднюю оценку и печатает результат через Rich.
+Откройте эту папку целиком в VS Code. Все команды — из папки с app/ и requirements.txt.
+
+## Windows PowerShell
 
 ```powershell
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements.txt
-python main.py
 ```
 
-Если PowerShell запрещает активацию окружения, можно использовать CMD:
-`.venv\Scripts\activate.bat`.
+Если активация запрещена, откройте CMD и выполните `.venv\Scripts\activate.bat`.
+Или используйте `.\.venv\Scripts\python.exe` вместо `python` во всех командах ниже.
 
-## Запуск на macOS / Linux
+## macOS / Linux (bash, zsh)
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
-python main.py
 ```
 
-Ожидаемый результат:
-
-```text
-Средний результат: 4.40
-```
-
-## Запуск тестов
+## Установка и запуск
 
 ```bash
+python -c "import sys; print(sys.executable)"
+python -m pip install -r requirements.txt
+python -m app.main
 python -m unittest discover -s tests -v
 ```
 
-Должны успешно пройти три теста.
+Ожидаемый вывод: `Средний результат: 4.40`. Три теста должны завершиться OK.
+В VS Code выполните Python: Select Interpreter и выберите Python внутри .venv.
 
-## Структура проекта
+## Ответственность
 
-- `main.py` — точка входа для запуска проекта.
-- `app/main.py` — логика запуска приложения.
-- `app/services/calculater.py` — вычисление среднего значения.
-- `app/utils/formatter.py` — форматирование результата.
-- `tests/` — автоматические тесты.
-- `requirements.txt` — зависимости проекта.
+- app/main.py — соединение частей и запуск.
+- app/services/calculator.py — расчёт; пустой список вызывает ValueError.
+- app/utils/formatter.py — формат строки с двумя знаками после точки.
+- tests/ — проверки без стороннего тестового фреймворка.
+- requirements.txt — зафиксированные зависимости учебного примера (не требование последних версий).
+- .gitignore — исключает локальное окружение и кэш.
 
-Папка `.venv` создаётся локально и не загружается в Git.
+Окружение .venv создают на своём компьютере, в Git его не загружают.
