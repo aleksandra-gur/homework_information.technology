@@ -19,6 +19,22 @@
 
 Форма отправляет данные в таблицу. Наличие новых строк в таблице подтверждает получение заявок. Ссылку на таблицу следует открывать с учётной записью, имеющей соответствующие права.
 
+## Скриншоты
+
+Все девять кадров, предусмотренных заданием, находятся в папке `screens/`:
+
+| Файл | Что подтверждает |
+|---|---|
+| [01-sheet.png](screens/01-sheet.png) | структура таблицы заявок |
+| [02-apps-script.png](screens/02-apps-script.png) | скрипт приёма заявок |
+| [03-deployment.png](screens/03-deployment.png) | публикация Apps Script |
+| [04-form.png](screens/04-form.png) | форма на сайте |
+| [05-lead-direct.png](screens/05-lead-direct.png) | заявка без UTM-меток |
+| [06-lead-utm.png](screens/06-lead-utm.png) | заявка с UTM-метками |
+| [07-generate-lead.png](screens/07-generate-lead.png) | событие `generate_lead` в GA4 |
+| [08-duplicate.png](screens/08-duplicate.png) | проверка дублирующего `request_id` |
+| [09-status.png](screens/09-status.png) | проверка статуса заявки |
+
 ## Вывод
 
 Интеграция формы сайта с Google Таблицами позволяет сохранять обращения в одном месте и использовать их для дальнейшей обработки.
