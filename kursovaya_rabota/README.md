@@ -24,6 +24,8 @@
 |---|---|---|
 | Сайт «Огранка» | Основной веб-проект | [Открыть сайт](https://ogranka.vercel.app/) |
 | GitHub | Исходный код и материалы проекта | [Репозиторий](https://github.com/aleksandra-gur/information-technologi) |
+| Презентация курсовой | Презентация проекта для защиты | [Открыть презентацию PPTX](https://github.com/aleksandra-gur/information-technologi/blob/main/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/presentation/Ogranka_prezentaciya_final.pptx) |
+| Скриншоты проекта | Иллюстрации и подтверждение выполненной работы | [Открыть PDF со скриншотами](https://github.com/aleksandra-gur/information-technologi/blob/main/%D0%9A%D1%83%D1%80%D1%81%D0%BE%D0%B2%D0%B0%D1%8F%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/screenshots/%D1%81%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D1%8B.pdf) |
 | Google Таблицы | Приём и хранение заявок с сайта | [Открыть таблицу заявок](https://docs.google.com/spreadsheets/d/1gGxW4NPZy1Jje3vyyhhl-iZ9qCr3vMAf8Kw2TtwhhpU/edit?gid=746201889#gid=746201889) |
 | Google Analytics 4 | Анализ посещаемости и событий сайта | [Открыть отчёт в GA4](https://analytics.google.com/analytics/web/?utm_source=chatgpt.com#/a414086497p561555585/realtime/overview?params=_u..nav%3Dmaui) |
 | Yandex DataLens | Визуализация аналитических данных | [Открыть дашборд](https://datalens.yandex/6hmnsmye8ykap?_share_link=public) |
