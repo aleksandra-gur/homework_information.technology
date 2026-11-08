@@ -229,15 +229,7 @@
 
 ## 2.3. Скриншоты
 
-![Создание Analytics Account](screens/01-analytics-account.png)
-
-![Ресурс: часовой пояс и валюта](screens/02-property.png)
-
-![Выбор бизнес-целей](screens/03-business-goals.png)
-
-![Веб-поток: Website URL, Stream name, Enhanced Measurement](screens/04-web-stream.png)
-
-![Web stream details с Measurement ID](screens/05-measurement-id.png)
+*Кадры `01-analytics-account.png`–`05-measurement-id.png` нужно добавить в `screens/` перед сдачей: в текущей версии репозитория их пока нет.*
 
 ---
 
